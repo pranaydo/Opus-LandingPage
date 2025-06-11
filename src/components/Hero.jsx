@@ -120,7 +120,7 @@ const Hero = () => {
           </div>
 
           {/* Right Content - Form */}
-          <div className="w-full md:w-1/2">
+          <div id="appointment-form" className="w-full md:w-1/2">
             <form className="bg-white p-6 rounded shadow-md w-full">
               <h2 className="text-lg font-semibold text-gray-800 mb-4">
                 Book Your Appointment

@@ -18,10 +18,19 @@ const CTASection = () => {
       {/* Contact Form */}
       <form className="bg-white p-6 rounded-lg shadow-md text-left text-gray-800 w-full lg:w-1/2">
         <div className="mb-4">
-          <label className="block mb-1 font-semibold">Name</label>
+          <label className="block mb-1 font-semibold"> First Name</label>
           <input
             type="text"
-            placeholder="Your full name"
+            placeholder="Your first name"
+            className="w-full p-3 border border-gray-300 rounded"
+            required
+          />
+        </div>
+        <div className="mb-4">
+          <label className="block mb-1 font-semibold"> Last Name</label>
+          <input
+            type="text"
+            placeholder="Your last name"
             className="w-full p-3 border border-gray-300 rounded"
             required
           />

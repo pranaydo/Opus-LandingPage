@@ -24,7 +24,11 @@ const DoctorProfile = () => {
             <li>• Passionate about giving patients confidence in their smiles</li>
           </ul>
 
-          <button className="bg-themeGreen text-black font-bold py-3 px-6 rounded mt-4 hover:bg-lime-300 transition">
+          <button className="bg-themeGreen text-black font-bold py-3 px-6 rounded mt-4 hover:bg-lime-300 transition"
+          onClick={() => {
+            const el = document.getElementById("appointment-form");
+            el?.scrollIntoView({ behavior: "smooth" });
+          }}>
             BOOK AN APPOINTMENT
           </button>
         </div>
