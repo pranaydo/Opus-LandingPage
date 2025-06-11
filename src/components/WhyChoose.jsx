@@ -3,22 +3,22 @@ import { Users, Microscope, SmilePlus, MapPin } from "lucide-react";
 
 const pillars = [
   {
-    icon: <Users className="w-8 h-8 text-themeGreen" />,
+    icon: <Users className="w-8 h-8 text-themeLight" />,
     title: "Expert Team",
     desc: "Led by Dr. Burzin Khan (MDS Prosthodontics), with 30+ years of experience and a team of top specialists.",
   },
   {
-    icon: <Microscope className="w-8 h-8 text-themeGreen" />,
+    icon: <Microscope className="w-8 h-8 text-themeLight" />,
     title: "Advanced Technology",
     desc: "We use 3D CBCT scans, laser dentistry, and digital smile design for world-class precision and comfort.",
   },
   {
-    icon: <SmilePlus className="w-8 h-8 text-themeGreen" />,
+    icon: <SmilePlus className="w-8 h-8 text-themeLight" />,
     title: "Patient-Centric Care",
     desc: "Pain-free treatments with ISO-certified hygiene, entertainment, and anxiety-free techniques.",
   },
   {
-    icon: <MapPin className="w-8 h-8 text-themeGreen" />,
+    icon: <MapPin className="w-8 h-8 text-themeLight" />,
     title: "Convenience & Accessibility",
     desc: "Clinics in Bandra & Fort, open 6 days a week, with easy scheduling and on-site parking.",
   },
@@ -47,7 +47,7 @@ const WhyChoose = () => {
 
 <div className="mt-10 flex justify-center">
 <button
-            className="  bg-themeGreen text-black font-bold py-3 px-6 rounded "
+            className="  bg-themeLight text-black font-bold py-3 px-6 rounded "
             onClick={() => {
               const el = document.getElementById("appointment-form");
               el?.scrollIntoView({ behavior: "smooth" });

@@ -31,7 +31,7 @@
 //         <div className="hidden lg:flex lg:w-1/4 justify-end">
 //           <a
 //             href="tel:+912345678900"
-//             className="flex items-center gap-2 bg-white text-themeGreen font-semibold px-6 py-3 rounded hover:bg-green-100 transition"
+//             className="flex items-center gap-2 bg-white text-themeLight font-semibold px-6 py-3 rounded hover:bg-green-100 transition"
 //           >
 //             <Phone className="w-5 h-5" />
 //             +91 23456 78900
@@ -46,7 +46,7 @@
 //           {/* Call Button */}
 //           <a
 //             href="tel:+912345678900"
-//             className="flex items-center gap-2 bg-white text-themeGreen font-semibold px-4 py-2 rounded hover:bg-green-100 transition"
+//             className="flex items-center gap-2 bg-white text-themeLight font-semibold px-4 py-2 rounded hover:bg-green-100 transition"
 //           >
 //             <Phone className="w-5 h-5" />     
 //             Call Now
@@ -93,7 +93,7 @@ const Footer = () => {
         <div className="hidden lg:flex lg:w-1/4 justify-end">
           <a
             href="tel:+917045117623"
-            className="flex items-center gap-2 bg-white text-themeGreen font-semibold px-6 py-3 rounded hover:bg-green-100 transition"
+            className="flex items-center gap-2 bg-themeLight text-black font-semibold px-6 py-3 rounded hover:bg-green-100 transition"
           >
             <Phone className="w-5 h-5" />
             +917045117623
@@ -106,13 +106,13 @@ const Footer = () => {
           <img
             src={logo}
             alt="Logo"
-            className="h-14 w-auto object-contain"
+            className="h-20 w-auto object-contain"
           />
 
           {/* Call Button */}
           <a
             href="tel:+917045117623"
-            className="flex items-center gap-2 bg-white text-black font-semibold px-6 py-3 rounded hover:bg-themeGreen transition"
+            className="flex items-center gap-2 bg-themeLight text-black font-semibold px-6 py-3 rounded  "
           >
             <Phone className="w-5 h-5" />
             +917045117623

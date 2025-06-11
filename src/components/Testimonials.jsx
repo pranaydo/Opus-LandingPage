@@ -43,7 +43,7 @@ const TestimonialCard = ({ testimonial }) => (
         className="w-14 h-14 rounded-full object-cover"
       /> */}
       <div>
-        <h4 className="text-md font-semibold text-themeGreen">
+        <h4 className="text-md font-semibold text-themeLight">
           {testimonial.name}
         </h4>
         <p className="text-xs text-gray-500">
@@ -72,7 +72,7 @@ const Testimonials = () => {
     <section className="bg-white pt-7 px-4 text-center">
       <div className="max-w-7xl mx-auto">
         {/* Emotional Hook */}
-        <h2 className="text-3xl sm:text-4xl font-bold text-themeGreen mb-4">
+        <h2 className="text-3xl sm:text-4xl font-bold text-themeLight mb-4">
           Real Stories, Real Smiles
         </h2>
         <p className="text-gray-600 mb-10 text-base md:text-lg">
@@ -91,13 +91,13 @@ const Testimonials = () => {
           <TestimonialCard testimonial={testimonials[current]} />
           <div className="flex justify-center mt-6 gap-6">
             <button
-              className="text-themeGreen font-bold text-2xl"
+              className="text-themeLight font-bold text-2xl"
               onClick={prevSlide}
             >
               ‹
             </button>
             <button
-              className="text-themeGreen font-bold text-2xl"
+              className="text-themeLight font-bold text-2xl"
               onClick={nextSlide}
             >
               ›

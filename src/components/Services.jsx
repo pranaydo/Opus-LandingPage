@@ -10,12 +10,12 @@ import {
 } from "lucide-react";
 
 const services = [
-  { icon: <ShieldCheck className="w-8 h-8 text-themeGreen" />, title: "General Care", desc: "Routine checkups, cleanings, fillings." },
-  { icon: <Smile className="w-8 h-8 text-themeGreen" />, title: "Cosmetic Dentistry", desc: "Whitening, veneers, smile makeovers." },
-  { icon: <AlignHorizontalJustifyCenter className="w-8 h-8 text-themeGreen" />, title: "Orthodontics Dentistry", desc: "Braces & clear aligners." },
-  { icon: <Baby className="w-8 h-8 text-themeGreen" />, title: "Pediatric Dentistry", desc: "Child-friendly dental care." },
-  { icon: <CheckCircle className="w-8 h-8 text-themeGreen" />, title: "Implants & Restorative", desc: "Crowns, bridges, implants." },
-  { icon: <HeartPulse className="w-8 h-8 text-themeGreen" />, title: "Specialty Treatments", desc: "TMJ, Laser Dentistry." },
+  { icon: <ShieldCheck className="w-8 h-8 text-themeLight" />, title: "General Care", desc: "Routine checkups, cleanings, fillings." },
+  { icon: <Smile className="w-8 h-8 text-themeLight" />, title: "Cosmetic Dentistry", desc: "Whitening, veneers, smile makeovers." },
+  { icon: <AlignHorizontalJustifyCenter className="w-8 h-8 text-themeLight" />, title: "Orthodontics Dentistry", desc: "Braces & clear aligners." },
+  { icon: <Baby className="w-8 h-8 text-themeLight" />, title: "Pediatric Dentistry", desc: "Child-friendly dental care." },
+  { icon: <CheckCircle className="w-8 h-8 text-themeLight" />, title: "Implants & Restorative", desc: "Crowns, bridges, implants." },
+  { icon: <HeartPulse className="w-8 h-8 text-themeLight" />, title: "Specialty Treatments", desc: "TMJ, Laser Dentistry." },
 ];
 
 const ServiceCard = ({ icon, title, desc }) => (
@@ -31,7 +31,7 @@ const ServiceCard = ({ icon, title, desc }) => (
 
 const Services = () => {
   return (
-    <section className="w-full bg-themeGreen py-20 px-4 sm:px-8">
+    <section className="w-full bg-themeLight py-20 px-4 sm:px-8">
       <div className="max-w-7xl mx-auto relative flex flex-col items-center">
         <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8">
           Our Dental Services     </h2>

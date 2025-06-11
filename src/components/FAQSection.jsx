@@ -54,7 +54,7 @@
 //   return (
 //     <section className="bg-white py-24 px-4">
 //       <div className="max-w-4xl mx-auto">
-//         <h2 className="text-3xl sm:text-4xl font-bold text-themeGreen text-center mb-12">
+//         <h2 className="text-3xl sm:text-4xl font-bold text-themeLight text-center mb-12">
 //           Frequently Asked Questions
 //         </h2>
 
@@ -112,11 +112,11 @@ const FAQItem = ({ question, answer, isOpen, onToggle }) => (
   <div className="border-b border-gray-200">
     <button
       onClick={onToggle}
-      className="w-full flex justify-between items-center py-4 text-left text-lg font-medium text-gray-800 hover:text-themeGreen transition-colors duration-200"
+      className="w-full flex justify-between items-center py-4 text-left text-lg font-medium text-gray-800 hover:text-themeLight transition-colors duration-200"
     >
       {question}
       <ChevronDown
-        className={`w-5 h-5 text-themeGreen transition-transform duration-300 ${
+        className={`w-5 h-5 text-themeLight transition-transform duration-300 ${
           isOpen ? "rotate-180" : ""
         }`}
       />
@@ -137,10 +137,11 @@ const FAQSection = () => {
   const toggleFAQ = (index) => setOpenIndex(index === openIndex ? null : index);
 
   return (
-    <section className="bg-white  px-4 mt-4 ">
+    <section className="bg-white  px-4 mt-4 mb-4 ">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-bold text-themeGreen text-center mb-4">
-          Your Questions, Answered.
+        <h2 className="text-3xl sm:text-4xl font-bold text-themeLight text-center mb-4">
+        Frequently Asked Questions (FAQ)
+
         </h2>
 
         <div className="space-y-4">

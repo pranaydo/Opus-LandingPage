@@ -19,11 +19,11 @@
 
 //             {/* Trust Badges */}
 //             <div className="flex items-center justify-center md:justify-start gap-4 mb-6">
-//               <div className="flex items-center gap-2 text-themeGreen font-medium">
+//               <div className="flex items-center gap-2 text-themeLight font-medium">
 //                 <ShieldCheck className="w-5 h-5" />
 //                 30+ Years Experience
 //               </div>
-//               <div className="flex items-center gap-2 text-themeGreen font-medium">
+//               <div className="flex items-center gap-2 text-themeLight font-medium">
 //                 <Medal className="w-5 h-5" />
 //                 Certified Safety Protocols
 //               </div>
@@ -45,7 +45,7 @@
 //               <input
 //                 type="text"
 //                 placeholder="Enter your name"
-//                 className="mb-3 w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-themeGreen"
+//                 className="mb-3 w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-themeLight"
 //               />
 //               <label
 //                 htmlFor="email"
@@ -57,7 +57,7 @@
 //               <input
 //                 type="email"
 //                 placeholder="Enter your email"
-//                 className="mb-3 w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-themeGreen"
+//                 className="mb-3 w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-themeLight"
 //               />
 //               <label
 //                 htmlFor="phone"
@@ -68,11 +68,11 @@
 //               <input
 //                 type="tel"
 //                 placeholder="Enter your phone"
-//                 className="mb-3 w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-themeGreen"
+//                 className="mb-3 w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-themeLight"
 //               />
 //               <button
 //                 type="submit"
-//                 className="bg-themeGreen text-white w-   px-4 py-2 rounded font-semibold hover:bg-opacity-90 transition"
+//                 className="bg-themeLight text-white w-   px-4 py-2 rounded font-semibold hover:bg-opacity-90 transition"
 //               >
 //                 Book Appointment
 //               </button>
@@ -106,23 +106,12 @@ const Hero = () => {
               Restore confidence with advanced, painless dental implant treatments. Led by experts with 30+ years of experience.
             </p>
 
-            {/* Trust Badge Teaser */}
-            {/* <div className="flex items-center justify-center md:justify-start gap-4 mb-6">
-              <div className="flex items-center gap-2 text-themeGreen font-medium">
-                <Star className="w-5 h-5 mb-[22px]" />
-                Rated 4.9★ by 200+ patients
-              </div>
-              <div className="flex items-center gap-2 text-themeGreen font-medium">
-                <ShieldCheck className="w-5 h-5 mb-[22px]" />
-                Certified Implant Center
-              </div>
-            </div> */}
             <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-4 mb-6">
-  <div className="flex items-center gap-2 text-themeGreen font-medium">
+  <div className="flex items-center gap-2 text-themeLight font-medium">
     <Star className="w-5 h-5" />
     Rated 4.9★ by 200+ patients
   </div>
-  <div className="flex items-center gap-2 text-themeGreen font-medium">
+  <div className="flex items-center gap-2 text-themeLight font-medium">
     <ShieldCheck className="w-5 h-5" />
     Certified Implant Center
   </div>
@@ -133,9 +122,9 @@ const Hero = () => {
           {/* Right Content - Form */}
           <div id="appointment-form" className="w-full md:w-1/2">
             <form className="bg-white p-6 rounded shadow-md w-full">
-              <h2 className="text-lg font-semibold text-center text-gray-800 mb-4">
+              {/* <h2 className="text-lg font-semibold text-center text-gray-800 mb-4">
                 Book Your Appointment
-              </h2>
+              </h2> */}
 
               {/* First Name */}
               <label htmlFor="fname" className="block text-sm font-medium text-gray-700 mb-1">
@@ -145,7 +134,7 @@ const Hero = () => {
                 id="fname"
                 type="text"
                 placeholder="Enter your first name"
-                className="mb-3 w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-themeGreen"
+                className="mb-3 w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-themeLight"
               />
 
               {/* Last Name */}
@@ -156,7 +145,7 @@ const Hero = () => {
                 id="lname"
                 type="text"
                 placeholder="Enter your last name"
-                className="mb-3 w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-themeGreen"
+                className="mb-3 w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-themeLight"
               />
 
               {/* Email */}
@@ -167,7 +156,7 @@ const Hero = () => {
                 id="email"
                 type="email"
                 placeholder="Enter your email"
-                className="mb-3 w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-themeGreen"
+                className="mb-3 w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-themeLight"
               />
 
               {/* Phone */}
@@ -178,13 +167,13 @@ const Hero = () => {
                 id="phone"
                 type="tel"
                 placeholder="Enter your phone number"
-                className="mb-4 w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-themeGreen"
+                className="mb-4 w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-themeLight"
               />
 
               {/* CTA Button */}
               <button
                 type="submit"
-                className="bg-themeGreen text-white w-full px-4 py-2 rounded font-semibold hover:bg-opacity-90 transition"
+                className="bg-themeLight text-black w-full px-4 py-2 rounded font-semibold hover:bg-opacity-90 transition border-2 border-black "
               >
                 Book Appointment Now!
               </button>
