@@ -90,8 +90,11 @@
 
 import React from "react";
 import { ShieldCheck, Star } from "lucide-react"; // Swap icons if needed
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="w-full bg-[url('/images/hero.png')] bg-cover bg-center text-white">
       {/* Overlay for text readability */}
@@ -165,6 +168,13 @@ const Hero = () => {
               <button
                 type="submit"
                 className="bg-themeLight text-black px-2  py-2 rounded font-semibold hover:bg-opacity-90 transition border-2 border-black "
+                onClick={(e) => {
+                  e.preventDefault();
+                  // do something
+                  navigate("/thank-you");
+                
+
+                }}
               >
                 Book Appointment Now!
               </button>
