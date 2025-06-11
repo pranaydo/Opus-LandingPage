@@ -107,7 +107,7 @@ const Hero = () => {
             </p>
 
             {/* Trust Badge Teaser */}
-            <div className="flex items-center justify-center md:justify-start gap-4 mb-6">
+            {/* <div className="flex items-center justify-center md:justify-start gap-4 mb-6">
               <div className="flex items-center gap-2 text-themeGreen font-medium">
                 <Star className="w-5 h-5 mb-[22px]" />
                 Rated 4.9★ by 200+ patients
@@ -116,7 +116,18 @@ const Hero = () => {
                 <ShieldCheck className="w-5 h-5 mb-[22px]" />
                 Certified Implant Center
               </div>
-            </div>
+            </div> */}
+            <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-4 mb-6">
+  <div className="flex items-center gap-2 text-themeGreen font-medium">
+    <Star className="w-5 h-5" />
+    Rated 4.9★ by 200+ patients
+  </div>
+  <div className="flex items-center gap-2 text-themeGreen font-medium">
+    <ShieldCheck className="w-5 h-5" />
+    Certified Implant Center
+  </div>
+</div>
+
           </div>
 
           {/* Right Content - Form */}
