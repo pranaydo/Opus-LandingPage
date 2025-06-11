@@ -153,13 +153,6 @@ const KeyValue = () => {
           </div>
         </div>
 
-        {/* Supporting Microcopy */}
-        {/* <p className="text-center text-gray-600 mt-10 text-sm md:text-base">
-          Committed to world-class care and patient comfort, right here in Mumbai.
-        </p> */}
-        <p className="text-center text-themeLight font-semibold mt-10 text-base md:text-lg">
-  Committed to world-class care and  patient comfort, right here in Mumbai.
-</p>
 
       </div>
     </section>

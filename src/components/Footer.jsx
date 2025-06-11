@@ -66,7 +66,7 @@ import { Phone } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-darkGray text-white py-10 px-4">
+    <footer className="bg-darkGray text-white py-3 px-4">
       <div className="max-w-7xl mx-auto w-full flex flex-col lg:flex-row items-center lg:items-start justify-between gap-8">
         
         {/* Desktop View: Logo */}
@@ -112,7 +112,7 @@ const Footer = () => {
           {/* Call Button */}
           <a
             href="tel:+917045117623"
-            className="flex items-center gap-2 bg-themeLight text-black font-semibold px-6 py-3 rounded  "
+            className="flex items-center gap-2 bg-themeLight text-black font-semibold px-3 py-2 rounded border-2 border-white"
           >
             <Phone className="w-5 h-5" />
             +917045117623

@@ -27,7 +27,7 @@ const DoctorProfile = () => {
           </h2>
 
           <div>
-            <h3 className="text-xl font-semibold">Dr. Burzin Khan, MDS</h3>
+            <h3 className="text-2xl	 font-semibold">Dr. Burzin Khan, MDS</h3>
             <p className="text-themeLight font-semibold">
               Cosmetic Dentistry Expert
             </p>
@@ -43,7 +43,7 @@ const DoctorProfile = () => {
           </ul>
 
           <button
-            className="bg-themeLight text-black border-2 border-black  font-bold py-3 px-6 rounded "
+            className="bg-themeLight text-black border-2 border-white  font-bold py-2 px-3 rounded "
             onClick={() => {
               const el = document.getElementById("appointment-form");
               el?.scrollIntoView({ behavior: "smooth" });

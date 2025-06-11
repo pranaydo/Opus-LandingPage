@@ -81,7 +81,7 @@ const ImplantJourney = () => {
 
 <button
  type="submit"
-                className="bg-themeLight text-black px-4 py-2 rounded font-semibold "
+                className="bg-themeLight text-black px-4 py-2 rounded font-semibold border-2 border-black"
               >
                 Book Appointment Now!
               </button>

@@ -137,7 +137,7 @@ const FAQSection = () => {
   const toggleFAQ = (index) => setOpenIndex(index === openIndex ? null : index);
 
   return (
-    <section className="bg-white  px-4 mt-4 mb-4 ">
+    <section className="bg-white  px-6 mt-4 mb-6 ">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-themeLight text-center mb-4">
         Frequently Asked Questions (FAQ)

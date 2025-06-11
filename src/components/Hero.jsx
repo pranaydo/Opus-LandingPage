@@ -109,7 +109,7 @@ const Hero = () => {
             <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-4 mb-6">
   <div className="flex items-center gap-2 text-themeLight font-medium">
     <Star className="w-5 h-5" />
-    Rated 4.9★ by 200+ patients
+    Rated 4.9★ by 1000+ patients
   </div>
   <div className="flex items-center gap-2 text-themeLight font-medium">
     <ShieldCheck className="w-5 h-5" />
@@ -128,25 +128,15 @@ const Hero = () => {
 
               {/* First Name */}
               <label htmlFor="fname" className="block text-sm font-medium text-gray-700 mb-1">
-                First Name
+                Full Name
               </label>
               <input
                 id="fname"
                 type="text"
-                placeholder="Enter your first name"
+                placeholder="Enter your full name"
                 className="mb-3 w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-themeLight"
               />
 
-              {/* Last Name */}
-              <label htmlFor="lname" className="block text-sm font-medium text-gray-700 mb-1">
-                Last Name
-              </label>
-              <input
-                id="lname"
-                type="text"
-                placeholder="Enter your last name"
-                className="mb-3 w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-themeLight"
-              />
 
               {/* Email */}
               <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
@@ -171,12 +161,14 @@ const Hero = () => {
               />
 
               {/* CTA Button */}
+              <div className="flex justify-center">
               <button
                 type="submit"
-                className="bg-themeLight text-black w-full px-4 py-2 rounded font-semibold hover:bg-opacity-90 transition border-2 border-black "
+                className="bg-themeLight text-black px-2  py-2 rounded font-semibold hover:bg-opacity-90 transition border-2 border-black "
               >
                 Book Appointment Now!
               </button>
+              </div>
             </form>
           </div>
         </div>
