@@ -26,7 +26,7 @@ const pillars = [
 
 const WhyChoose = () => {
   return (
-    <section className="w-full bg-darkGray py-20 px-4">
+    <section className="w-full bg-darkGray py-6 px-4">
       <div className="max-w-7xl mx-auto text-center">
   <h2 className="text-3xl sm:text-4xl font-bold text-themeLight mb-12">
     Why Thousands Trust OPUS Dental
@@ -44,6 +44,18 @@ const WhyChoose = () => {
     ))}
   </div>
 </div>
+
+<div className="mt-10 flex justify-center">
+<button
+            className="  bg-themeGreen text-black font-bold py-3 px-6 rounded "
+            onClick={() => {
+              const el = document.getElementById("appointment-form");
+              el?.scrollIntoView({ behavior: "smooth" });
+            }}
+          >
+            BOOK AN APPOINTMENT
+          </button>
+          </div>
 
     </section>
   );

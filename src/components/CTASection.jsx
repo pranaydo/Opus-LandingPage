@@ -2,7 +2,7 @@ import React from "react";
 
 const CTASection = () => {
   return (
-    <section className="bg-themeGreen text-white py-4 px-4">
+    <section className="bg-themeGreen text-white py-8 px-4">
   <div className="max-w-7xl mx-auto">
     <div className="text-center mb-12">
       <h2 className="text-3xl sm:text-4xl font-bold mb-4">
