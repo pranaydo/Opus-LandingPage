@@ -50,7 +50,9 @@ const ImplantJourney = () => {
     <section className="bg-white px-4 sm:px-6 md:px-12 py-16">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 mb-12">
-          Your Implant Journey at OPUS: What Happens Next
+          Your Implant Journey at OPUS: 
+          <br />
+          <span className="text-themeGreen">What Happens Next</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
@@ -75,7 +77,7 @@ const ImplantJourney = () => {
           <p className="text-lg font-medium text-gray-700">
             Ready to take the first step?
             <span className="text-themeGreen font-semibold ml-1 underline cursor-pointer">
-              <button
+              {/* <button
                 className="border rounded-3xl bg-themeGreen text-white px-4"
                 onClick={() => {
                   const el = document.getElementById("appointment-form");
@@ -84,6 +86,13 @@ const ImplantJourney = () => {
               >
                 {" "}
                 Book Appointment Now
+              </button> */}
+
+<button
+ type="submit"
+                className="bg-themeGreen text-white px-4 py-2 rounded font-semibold hover:bg-opacity-90 transition"
+              >
+                Book Appointment Now!
               </button>
             </span>
           </p>

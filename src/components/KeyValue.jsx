@@ -158,7 +158,7 @@ const KeyValue = () => {
           Committed to world-class care and patient comfort, right here in Mumbai.
         </p> */}
         <p className="text-center text-themeGreen font-semibold mt-10 text-base md:text-lg">
-  Committed to world-class care and className="text-themeGreen font-bold" patient comfort, right here in Mumbai.
+  Committed to world-class care and  patient comfort, right here in Mumbai.
 </p>
 
       </div>

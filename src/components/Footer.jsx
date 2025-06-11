@@ -112,10 +112,10 @@ const Footer = () => {
           {/* Call Button */}
           <a
             href="tel:+917045117623"
-            className="flex items-center gap-2 bg-white text-themeGreen font-semibold px-4 py-2 rounded hover:bg-green-100 transition"
+            className="flex items-center gap-2 bg-white text-black font-semibold px-6 py-3 rounded hover:bg-themeGreen transition"
           >
             <Phone className="w-5 h-5" />
-            Call Now
+            +917045117623
           </a>
 
         </div>

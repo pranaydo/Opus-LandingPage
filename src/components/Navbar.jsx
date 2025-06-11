@@ -17,10 +17,10 @@ const Navbar = () => {
   {/* Contact Button */}
   <div>
     <a
-      href="#contact"
+      href="tel:+917045117623"
       className="px-4 py-2 text-sm sm:text-base bg-themeGreen text-white font-medium rounded hover:bg-opacity-90 transition duration-200"
     >
-      Contact
+      +91 70 4511 7623
     </a>
   </div>
 </header>

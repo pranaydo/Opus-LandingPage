@@ -109,11 +109,11 @@ const Hero = () => {
             {/* Trust Badge Teaser */}
             <div className="flex items-center justify-center md:justify-start gap-4 mb-6">
               <div className="flex items-center gap-2 text-themeGreen font-medium">
-                <Star className="w-5 h-5" />
+                <Star className="w-5 h-5 mb-[22px]" />
                 Rated 4.9★ by 200+ patients
               </div>
               <div className="flex items-center gap-2 text-themeGreen font-medium">
-                <ShieldCheck className="w-5 h-5" />
+                <ShieldCheck className="w-5 h-5 mb-[22px]" />
                 Certified Implant Center
               </div>
             </div>
@@ -122,7 +122,7 @@ const Hero = () => {
           {/* Right Content - Form */}
           <div id="appointment-form" className="w-full md:w-1/2">
             <form className="bg-white p-6 rounded shadow-md w-full">
-              <h2 className="text-lg font-semibold text-gray-800 mb-4">
+              <h2 className="text-lg font-semibold text-center text-gray-800 mb-4">
                 Book Your Appointment
               </h2>
 

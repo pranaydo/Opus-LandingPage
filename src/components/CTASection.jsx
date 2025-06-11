@@ -2,7 +2,7 @@ import React from "react";
 
 const CTASection = () => {
   return (
-    <section className="bg-themeGreen text-white py-20 px-4">
+    <section className="bg-themeGreen text-white py-4 px-4">
   <div className="max-w-7xl mx-auto">
     <div className="text-center mb-12">
       <h2 className="text-3xl sm:text-4xl font-bold mb-4">
@@ -53,12 +53,13 @@ const CTASection = () => {
             required
           />
         </div>
+       
         <button
-          type="submit"
-          className="w-full bg-darkGray text-white py-3 rounded font-semibold hover:bg-secondary transition"
-        >
+ type="submit"
+                className="bg-themeGreen text-white px-4 py-2 rounded font-semibold hover:bg-opacity-90 transition"
+              >
           Book Consultation
-        </button>
+          </button>
       </form>
 
       {/* Call-To-Action Box */}
@@ -69,11 +70,11 @@ const CTASection = () => {
             Call us and we’ll help you book your consultation right away.
           </p>
           <a
-            href="tel:+917045117623"
-            className="inline-block bg-darkGray text-white font-semibold px-6 py-3 rounded hover:bg-secondary transition"
-          >
-            +91 7045 117623
-          </a>
+      href="tel:+917045117623"
+      className="px-4 py-2 text-sm sm:text-base bg-themeGreen text-white font-medium rounded hover:bg-opacity-90 transition duration-200"
+    >
+      +91 70 4511 7623
+    </a>
         </div>
         <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
   {/* Clinic Timing */}
